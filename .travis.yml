@@ -1,3 +1,15 @@
+language: python
+
+before_install:
+  - mkdir -p $HOME/bin
+  - wget https://github.com/github/git-lfs/releases/download/v1.1.2/git-lfs-linux-amd64-1.1.2.tar.gz
+  - tar xvfz git-lfs-linux-amd64-1.1.2.tar.gz
+  - mv git-lfs-1.1.2/git-lfs $HOME/bin/git-lfs
+  - export PATH=$PATH:$HOME/bin/
+
+before_script: 
+  - git lfs pull
+
 deploy:
   provider: s3
   access_key_id: AKIAJZ22SCC4ZICYXFVA
