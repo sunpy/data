@@ -9,3 +9,4 @@ deploy:
   acl: public_read
   on:
     repo: sunpy/sample-data
+
