@@ -10,6 +10,9 @@ before_install:
 before_script: 
   - git lfs pull
 
+script:
+  - ls
+
 deploy:
   provider: s3
   access_key_id: AKIAJZ22SCC4ZICYXFVA
