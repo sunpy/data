@@ -17,3 +17,5 @@ BIR_20110607_062400_10.fit filter=lfs diff=lfs merge=lfs -text
 aiacalibim5.fits.gz filter=lfs diff=lfs merge=lfs -text
 glg_cspec_n5_110607_v00.pha filter=lfs diff=lfs merge=lfs -text
 lyra_20110607-000000_lev3_std.fits filter=lfs diff=lfs merge=lfs -text
+RecentIndices.txt filter=lfs diff=lfs merge=lfs -text
+predicted-sunspot-radio-flux.txt filter=lfs diff=lfs merge=lfs -text
