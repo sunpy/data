@@ -21,3 +21,4 @@ RecentIndices.txt filter=lfs diff=lfs merge=lfs -text
 predicted-sunspot-radio-flux.txt filter=lfs diff=lfs merge=lfs -text
 20110607_EVE_L0CS_DIODES_1m.txt filter=lfs diff=lfs merge=lfs -text
 tca110810 filter=lfs diff=lfs merge=lfs -text
+tca110607 filter=lfs diff=lfs merge=lfs -text
