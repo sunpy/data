@@ -13,6 +13,8 @@ before_script:
 script:
   - ls
 
+before_deploy: "rm -rf git-lfs*"
+
 deploy:
   provider: s3
   access_key_id: AKIAJZ22SCC4ZICYXFVA
