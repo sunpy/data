@@ -3,3 +3,5 @@
 .fits filter=lfs diff=lfs merge=lfs -text
 .zip filter=lfs diff=lfs merge=lfs -text
 sample-data/* filter=lfs diff=lfs merge=lfs -text
+sunkit-sst/CRISP_LXY_Cube.fits.gz filter=lfs diff=lfs merge=lfs -text
+sunkit-sst/CRISP_TXY_Cube.fits.gz filter=lfs diff=lfs merge=lfs -text
