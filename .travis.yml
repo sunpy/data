@@ -13,7 +13,7 @@ before_script:
 script:
   - ls
 
-before_deploy: "rm -rf git-lfs*; bash generate_index.sh"
+before_deploy: "rm -rf git-lfs*; bash generate_index.sh > index.html"
 
 deploy:
   provider: s3
