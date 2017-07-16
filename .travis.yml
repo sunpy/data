@@ -11,7 +11,7 @@ before_script:
   - git lfs pull
 
 script:
-  - ls
+  - tree
 
 before_deploy: "rm -rf git-lfs*; bash generate_index.sh > index.html"
 
