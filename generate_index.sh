@@ -10,7 +10,7 @@ echo "<html>
 
         "
 echo "<ul>"
-for file in "$root"/*/*/*; do
+for file in "$root"/*/*; do
   parentpath="${file#*/}"
   parent="${parentpath%/*}"
   filename="${file##*/}"
