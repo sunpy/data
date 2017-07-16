@@ -11,7 +11,8 @@ before_script:
   - git lfs pull
 
 script:
-  - tree
+  - ls
+  - ls sunpy/v1/
 
 before_deploy: "rm -rf git-lfs*; bash generate_index.sh > index.html"
 
