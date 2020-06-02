@@ -7,5 +7,5 @@ If you want to add data to this repository you will need to use Git Large File S
 This allows the data files to be replaced with text pointers inside Git.
 
 You will need to install git lfs (see https://github.com/git-lfs/git-lfs/wiki/Installation).
-Following this and git lfs is setup on your system, you can continue with the typically steps of
+Following this and git lfs is setup on your system, you can continue with the typical steps of
 committing a new file to your branch and making a PR to this repo.
