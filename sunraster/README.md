@@ -1,3 +1,3 @@
-# IRISPy Sample Data
+# sunraster Sample Data
 
-This is the sample data for the IRISPy affiliated package.
+This is the sample data for the sunraster affiliated package.
