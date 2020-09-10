@@ -25,6 +25,6 @@ for file in "$root"/*/*; do
   echo "    <li><a href=\"$parentpath\">$filename</a></li>"
 done
 echo "  </ul>"
-echo "</ul>" 
+echo "</ul>"
 echo "</body>"
 echo "</html>"
