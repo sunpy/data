@@ -5,6 +5,7 @@ on:
       - master
 jobs:
   run:
+    name: Upload Data to S3
     runs-on: ubuntu-latest
     if: github.repository == 'sunpy/sample-data'
     env:
@@ -13,7 +14,8 @@ jobs:
 
     steps:
         - uses: actions/checkout@v2
-          lfs: true
+          with:
+            lfs: true
 
         - name: Generate Indices
           run: |
@@ -29,3 +31,4 @@ jobs:
             folder: ./
             bucket: data.sunpy.org
             bucket-region: "eu-west-1"
+            delete-removed: true
