@@ -1,5 +1,5 @@
 #!/bin/bash
-root="./sunpy"
+root="./sunpy/v1/"
 echo "<html>
     <head>
         <title>Sunpy sample data</title>
@@ -10,7 +10,7 @@ echo "<html>
 
         "
 echo "<ul>"
-for file in "$root"/*/*; do
+for file in "$root"/*; do
   parentpath="${file#*/}"
   parent="${parentpath%/*}"
   filename="${file##*/}"
@@ -22,7 +22,7 @@ for file in "$root"/*/*; do
     echo "  <li> $parent </li>" && oldparent="$parent"
     echo "  <ul>"
   fi
-  echo "    <li><a href=\"$parentpath\">$filename</a></li>"
+  echo "    <li><a href=\"$filename\">$filename</a></li>"
 done
 echo "  </ul>"
 echo "</ul>"
