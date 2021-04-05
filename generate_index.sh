@@ -1,5 +1,4 @@
 #!/bin/bash
-root="./"
 echo "<html>
     <head>
         <title>SunPy Data Store</title>
@@ -10,7 +9,7 @@ echo "<html>
 
         "
 echo "<ul>"
-for file in "$root"/*/*; do
+for file in $(find . \( -not -regex '.*/\..*' -not -regex '.*/*.html' -not -regex '.*/*.sh' \) -type f -name "*"); do
   parentpath="${file#*/}"
   parent="${parentpath%/*}"
   filename="${file##*/}"
