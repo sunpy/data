@@ -22,8 +22,7 @@ jobs:
             ls
             ls sunpy/v1/
             bash generate_index.sh > index.html
-            bash sunpy/generate_index.sh > sunpy/index.html
-            bash sunpy/v1/generate_index.sh > sunpy/v1/index.html
+
 
         - name: Deploy
           uses: reggionick/s3-deploy@v3
