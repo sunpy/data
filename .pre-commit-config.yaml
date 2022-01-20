@@ -1,0 +1,2 @@
+ci:
+  autofix_prs: false
