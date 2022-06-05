@@ -1,2 +1,11 @@
 ci:
   autofix_prs: false
+
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.3.0
+  hooks:
+    # This will ignore files commited with git LFS, which is the correct
+    # way to add large files in this repository
+  - id: check-added-large-files
+    args: ['enforce-all', 'maxkb=10']
