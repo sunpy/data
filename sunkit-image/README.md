@@ -1,3 +1,3 @@
-# sunkit-image Sample Data
+# sunkit-image Data
 
-This is the sample data for the sunkit-image affiliated package.
+This is the data for the sunkit-image affiliated package.
