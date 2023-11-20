@@ -7,7 +7,7 @@ jobs:
   run:
     name: Upload Data to S3
     runs-on: ubuntu-latest
-    if: github.repository == 'sunpy/sample-data'
+    if: github.repository == 'sunpy/data'
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
