@@ -2,7 +2,7 @@ name: Deploy Sample Data to S3 mirror
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   run:
     name: Upload Data to S3
